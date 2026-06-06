@@ -1,21 +1,23 @@
-git clone [https://github.com/yourusername/museo-docs.git](https://github.com/yourusername/museo-docs.git)
-cd museo-docs
-bundle install
-bundle exec jekyll serve
 
----
-layout: exhibition
-title: "Andy Warhol: Selling Art"
-institution: "Daejeon Museum of Art"
-date: 2026-05-01
-curator: "Exhibition Team"
-focus: "Pop Art, Business Art Strategy, Commercialism"
----
 
----
-layout: research
-title: "The Sfumato Technique from Leonardo to Luini"
-artist_focus: ["Leonardo da Vinci", "Bernardino Luini"]
-period: "Renaissance"
-category: "Western Art History"
----
+# MuseoDocs
+
+## 이 프로젝트는 무엇인가요?
+전시 관람 기록과 미술사 연구 자료를 체계적으로 정리하고 보관하기 위해 만든 구조 중심의 미니멀 웹 템플릿입니다.
+
+## 왜 만들었나요?
+방대한 서양 미술사 자료와 전시 보조 업무 및 관람 노트, 학예사 준비 자료들이 파편화되는 것을 막고 효율적으로 관리하고 싶어서 만들었습니다. 불필요한 시각적 장식을 배제하고, 학술적인 목적에 맞게 깔끔한 표(Table)와 텍스트 위주로 구조화하여 아카이빙 작업 시간을 줄이고자 기획했습니다.
+
+## 어떤 기능이 있나요?
+- 작품 메타데이터(작가, 기법, 제작 연도, 소장처 등)를 표와 그리드 형태로 단정하게 정리합니다.
+- 미술관 방문기 및 공간 분석에 맞춘 '전시 기록(Exhibition)' 전용 레이아웃을 제공합니다.
+- 특정 사조나 작가론을 깊이 있게 다루는 '미술사 연구(Research)' 전용 레이아웃을 제공합니다.
+- 예시 파일을 기본 제공하여, 복잡한 설정 없이 기존 구조를 보고 바로 따라 쓸 수 있습니다.
+
+## 어떻게 사용하나요?
+1. 프로젝트 폴더 내 예시 파일(`_posts` 디렉토리의 마크다운 파일)의 기본 양식을 확인합니다.
+2. 양식에 맞추어 전시 기관, 기획 의도 또는 연구할 미술사 내용(예: 르네상스 스푸마토 기법, 상업주의 팝아트 등)을 입력합니다.
+3. 구조화된 웹페이지 형태로 자동 변환된 아카이브 결과물 파일을 확인합니다.
+
+## 앞으로의 계획
+준학예사 시험 대비용 학업 트래커와 전공 서적 독서 목록을 관리하는 기능을 도입하고, 시대별 명화 분석 및 전시 공간 레이아웃 아카이빙 예시를 지속적으로 추가할 예정입니다.
